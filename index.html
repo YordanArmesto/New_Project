@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
+    <title>memeGenerator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hello</p>
+    <div class="meme-generator">
+    <p>
+        <label>Select an Image</label>
+        <input type="file" id="imageFileInput">
+    </p>
+    <p>  
+        <label>Top Text</label>
+        <input type="text" id="topTextInput">
+    </p>
+    <p>
+        <label>Bottom Text</label>
+        <input type="text" id="bottomTextInput">
+    </p>   
+        <canvas id="meme"></canvas>
+      </div>
+    <script src="app.js"></script>
 </body>
 </html>
